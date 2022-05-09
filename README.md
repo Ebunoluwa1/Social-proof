@@ -91,6 +91,6 @@ White: hsl(0, 0%, 100%)
 
 ## Acknowledgments
 
-I was challenged by the code written by Pyaethin for this same project, I liked how pyaethin's code is neat and readable. So I decided to redo this project again. I'd like to appreciate Pyaethin for giving his best in all He does.Thank you for encouraging me to do better.
+I was challenged by the code written by Pyaethein for this same project, I liked how pyaethein's code is neat and readable. So I decided to redo this project again. I'd like to appreciate Pyaethein for giving his best in all He does.Thank you for encouraging me to do better.
 
 

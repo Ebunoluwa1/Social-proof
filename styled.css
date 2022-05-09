@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --verydark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    }
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;   /*1rem*/
+}
+.container{
+    padding: 15px 20px;
+    align-items: center;
+    display: flex;
+}
+.header{
+    margin-top: 90px;
+     
+}
+.header h1{
+    width: 450px;
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header p{
+    color:hsl(303, 10%, 53%);
+ font-size: 1rem;
+
+}
+
+.stars{
+    display: flex;
+    flex-direction: column;
+
+}
+.svg{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.firstStar{
+    color:rgb(97, 10, 97);
+    font-weight: bold;
+    display: inline-flex;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: hsl(300, 24%, 96%);
+ border-radius: 10px;
+}
+
+.secondStar{   
+    color:rgb(97, 10, 97);
+    font-weight: bold;
+    display: inline-flex;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    margin-left: 55px;
+    background-color: hsl(300, 24%, 96%);
+ border-radius: 10px;
+
+}
+
+.thirdStar{
+    color:rgb(97, 10, 97);
+    font-weight: bold;
+    display: inline-flex;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    margin-left: 90px;
+    background-color: hsl(300, 24%, 96%);
+ border-radius: 10px;
+}
+.header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+} 
+
+.boxes .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0 4em;
+}
+.card{
+    background: rgb(87, 8, 87);
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 40px 100px 0px;
+    padding: 15px 20px;
+
+}
+.card_2{
+    margin-top: 2em;
+}
+
+.card_3{
+    margin-top:4em;
+}
+.card__header{
+    display: flex;
+    align-items: center;
+   margin-bottom: 10px;
+}
+
+.card__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card__header h3{
+color: white;
+padding: 10px;
+}
+
+.card__header p{
+    color: rgb(221, 119, 221);
+    padding-left: 10px;
+}
+
+.card__quote {
+    color:white;
+    font-size: 15px;
+    font-weight:500;
+    line-height: 1.4;
+   opacity:70%;
+}
+
+.attribution{
+    margin-top: 20px;
+}
+
+@media (max-width: 1002px) {
+   
+   .container{
+       flex-direction: column;
+   }
+    .header{
+        align-items: center; 
+        text-align: center;  
+    }
+    
+    .header p{
+        width:350px;
+     margin: 0 auto;
+    }
+    .stars{
+        
+        align-items: center;
+    }
+    .firstStar,
+    .secondStar,
+    .thirdStar {
+        width:350px;
+        display: block;
+       margin: 10px 20px;
+    }
+    .svg{
+    
+        padding-bottom: 1em;
+    }
+    .header .container{
+     flex-direction: column;
+    }
+
+}
+
+/* this was my previous style sheet before i decided to try it again */
